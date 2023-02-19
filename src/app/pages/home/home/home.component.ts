@@ -7,13 +7,6 @@ import { HotelsAPIService } from 'src/app/services/hotels-api.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  constructor(private hotelsAPI: HotelsAPIService) {}
-  ngOnInit(): void {
-   this.hotelsAPI.getHotels().subscribe({
-      next: (data) => console.log(data),
-    });
-  }
-
-
-
+  constructor() {}
+  ngOnInit(): void {}
 }
