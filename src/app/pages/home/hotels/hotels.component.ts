@@ -24,7 +24,7 @@ export class HotelsComponent implements OnInit {
       }
     });
   }
-
+  //sds
   getCities() {
     this.hotelsAPI.getHotels().subscribe((result: any) => {
       this.cities = [];
